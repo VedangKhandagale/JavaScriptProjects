@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Color Matching Game</h1>
+        <div class="color-box" id="colorBox"></div>
+        <div class="options">
+            <button class="option-btn" onclick="checkAnswer(0)" id="option0"></button>
+            <button class="option-btn" onclick="checkAnswer(1)" id="option1"></button>
+            <button class="option-btn" onclick="checkAnswer(2)" id="option2"></button>
+        </div>
+        <div id="result"></div>
+        <button onclick="startGame()">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
